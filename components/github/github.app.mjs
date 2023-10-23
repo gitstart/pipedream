@@ -525,5 +525,12 @@ export default {
         data: data,
       });
     },
+    async createPullRequest({
+      repoFullname, data,
+    }) {
+      const {data: pullRequest} = await this._client().request(`POST /repos/${repoFullname}/pulls`, data);
+
+      return pullRequest;
+    },
   },
 };
