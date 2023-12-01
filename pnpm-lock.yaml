@@ -738,7 +738,12 @@ importers:
       uuid: 8.3.2
 
   components/brilliant_directories:
-    specifiers: {}
+    specifiers:
+      '@pipedream/platform': ^1.5.1
+      qs: ^6.11.2
+    dependencies:
+      '@pipedream/platform': 1.5.1
+      qs: 6.11.2
 
   components/brosix:
     specifiers: {}
@@ -1239,6 +1244,9 @@ importers:
       '@pipedream/platform': 0.10.0
 
   components/conveyor:
+    specifiers: {}
+
+  components/convolo_ai:
     specifiers: {}
 
   components/copperx:
@@ -3394,6 +3402,9 @@ importers:
     dependencies:
       '@pipedream/platform': 1.5.1
 
+  components/livechat:
+    specifiers: {}
+
   components/livestorm:
     specifiers:
       '@pipedream/platform': ^1.4.1
@@ -5344,7 +5355,10 @@ importers:
       salesforce-webhooks: 1.1.11_handlebars@4.7.8
 
   components/saleslens:
-    specifiers: {}
+    specifiers:
+      '@pipedream/platform': ^1.5.1
+    dependencies:
+      '@pipedream/platform': 1.5.1
 
   components/salesmate:
     specifiers:
@@ -6249,7 +6263,10 @@ importers:
     specifiers: {}
 
   components/tally:
-    specifiers: {}
+    specifiers:
+      '@pipedream/platform': ^1.5.1
+    dependencies:
+      '@pipedream/platform': 1.5.1
 
   components/tapfiliate:
     specifiers: {}
@@ -7281,6 +7298,9 @@ importers:
     specifiers: {}
 
   components/zagomail:
+    specifiers: {}
+
+  components/zamzar:
     specifiers: {}
 
   components/zendesk:
