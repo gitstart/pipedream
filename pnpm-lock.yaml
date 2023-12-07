@@ -280,7 +280,10 @@ importers:
     specifiers: {}
 
   components/alttext_ai:
-    specifiers: {}
+    specifiers:
+      '@pipedream/platform': ^1.5.1
+    dependencies:
+      '@pipedream/platform': 1.5.1
 
   components/amara:
     specifiers:
@@ -1430,6 +1433,9 @@ importers:
       '@pipedream/platform': 1.5.1
       lodash-es: 4.17.21
       uuid: 8.3.2
+
+  components/decision_journal:
+    specifiers: {}
 
   components/deepgram:
     specifiers:
@@ -3133,6 +3139,9 @@ importers:
       '@pipedream/platform': ^1.5.1
     dependencies:
       '@pipedream/platform': 1.5.1
+
+  components/kajabi:
+    specifiers: {}
 
   components/kakao:
     specifiers: {}
@@ -6609,13 +6618,13 @@ importers:
 
   components/trello:
     specifiers:
-      '@pipedream/platform': ^0.10.0
+      '@pipedream/platform': ^1.5.1
       crypto: ^1.0.1
       lodash.pick: ^4.4.0
       lodash.pickby: ^4.6.0
       mime: ^3.0.0
     dependencies:
-      '@pipedream/platform': 0.10.0
+      '@pipedream/platform': 1.5.1
       crypto: 1.0.1
       lodash.pick: 4.4.0
       lodash.pickby: 4.6.0
@@ -6997,6 +7006,9 @@ importers:
   components/wakatime:
     specifiers: {}
 
+  components/wappalyzer:
+    specifiers: {}
+
   components/warpcast:
     specifiers: {}
 
@@ -7215,6 +7227,9 @@ importers:
       '@pipedream/platform': ^1.5.1
     dependencies:
       '@pipedream/platform': 1.5.1
+
+  components/wpforms:
+    specifiers: {}
 
   components/wrike:
     specifiers:
@@ -7559,7 +7574,10 @@ importers:
       moment: 2.29.4
 
   components/zoho_survey:
-    specifiers: {}
+    specifiers:
+      '@pipedream/platform': ^1.5.1
+    dependencies:
+      '@pipedream/platform': 1.5.1
 
   components/zoho_workdrive:
     specifiers:
