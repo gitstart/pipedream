@@ -1161,6 +1161,15 @@ importers:
     dependencies:
       '@pipedream/platform': 1.5.1
 
+  components/codacy:
+    specifiers: {}
+
+  components/code_climate:
+    specifiers: {}
+
+  components/codemagic:
+    specifiers: {}
+
   components/codeq_natural_language_processing_api:
     specifiers: {}
 
@@ -1173,6 +1182,9 @@ importers:
       xml2json-light: 1.0.6
 
   components/coderpad:
+    specifiers: {}
+
+  components/codescene:
     specifiers: {}
 
   components/cohere_platform:
@@ -1355,6 +1367,9 @@ importers:
       '@pipedream/platform': 0.10.0
 
   components/customgpt:
+    specifiers: {}
+
+  components/cutt_ly:
     specifiers: {}
 
   components/cyfe:
@@ -1570,6 +1585,9 @@ importers:
   components/digitalriver:
     specifiers: {}
 
+  components/dingconnect:
+    specifiers: {}
+
   components/discogs:
     specifiers:
       '@pipedream/platform': ^1.5.1
@@ -1614,7 +1632,10 @@ importers:
     specifiers: {}
 
   components/dnsfilter:
-    specifiers: {}
+    specifiers:
+      '@pipedream/platform': ^1.5.1
+    dependencies:
+      '@pipedream/platform': 1.5.1
 
   components/dock_certs:
     specifiers:
@@ -2328,10 +2349,10 @@ importers:
 
   components/github:
     specifiers:
-      '@octokit/core': ^4.0.4
+      '@octokit/core': ^4.2.4
       '@octokit/plugin-paginate-rest': ^2.17.0
       '@octokit/webhooks-definitions': ^3.29.0
-      '@pipedream/platform': ^1.2.0
+      '@pipedream/platform': ^1.5.1
     dependencies:
       '@octokit/core': 4.2.4
       '@octokit/plugin-paginate-rest': 2.21.3_@octokit+core@4.2.4
@@ -2537,7 +2558,10 @@ importers:
     specifiers: {}
 
   components/google_merchant_center:
-    specifiers: {}
+    specifiers:
+      '@pipedream/platform': ^1.5.1
+    dependencies:
+      '@pipedream/platform': 1.5.1
 
   components/google_my_business:
     specifiers:
@@ -2788,6 +2812,9 @@ importers:
   components/herobot_chatbot_marketing:
     specifiers: {}
 
+  components/heygen:
+    specifiers: {}
+
   components/heysummit:
     specifiers:
       '@pipedream/platform': ^1.2.0
@@ -3003,6 +3030,9 @@ importers:
       '@pipedream/platform': ^1.2.0
     dependencies:
       '@pipedream/platform': 1.5.1
+
+  components/inmobile:
+    specifiers: {}
 
   components/inoreader:
     specifiers:
@@ -3801,6 +3831,9 @@ importers:
     dependencies:
       '@pipedream/platform': 1.5.1
 
+  components/mezmo:
+    specifiers: {}
+
   components/microsoft_365_people:
     specifiers:
       '@pipedream/platform': ^1.5.1
@@ -4177,7 +4210,10 @@ importers:
     specifiers: {}
 
   components/nimble:
-    specifiers: {}
+    specifiers:
+      '@pipedream/platform': ^1.5.1
+    dependencies:
+      '@pipedream/platform': 1.5.1
 
   components/ninox:
     specifiers:
@@ -6084,6 +6120,9 @@ importers:
     dependencies:
       '@pipedream/platform': 1.5.1
 
+  components/sonarcloud:
+    specifiers: {}
+
   components/sonix:
     specifiers:
       '@pipedream/platform': ^1.5.1
@@ -6744,6 +6783,9 @@ importers:
   components/turbohire:
     specifiers: {}
 
+  components/turbot_pipes:
+    specifiers: {}
+
   components/tutor_lms:
     specifiers: {}
 
@@ -6896,7 +6938,10 @@ importers:
     specifiers: {}
 
   components/urlbae:
-    specifiers: {}
+    specifiers:
+      '@pipedream/platform': ^1.5.1
+    dependencies:
+      '@pipedream/platform': 1.5.1
 
   components/urlbox_io:
     specifiers:
@@ -7611,7 +7656,10 @@ importers:
       '@pipedream/platform': 1.5.1
 
   components/zoho_forms:
-    specifiers: {}
+    specifiers:
+      '@pipedream/platform': ^1.5.1
+    dependencies:
+      '@pipedream/platform': 1.5.1
 
   components/zoho_inventory:
     specifiers:
@@ -10712,8 +10760,8 @@ packages:
       kuler: 2.0.0
     dev: false
 
-  /@definitelytyped/header-parser/0.1.0:
-    resolution: {integrity: sha512-pN5pnRBb2lAWlBaKGEXnCx7+CCR5mDny4mQqWfA7KSGZTHlV3d2bBgc+BrjAaa6LwHWNrW6P/7wZi1emkHCWOg==}
+  /@definitelytyped/header-parser/0.1.1:
+    resolution: {integrity: sha512-2VLz+MPysuV0BuI2HMYwHUapAIJQA43bsFiJrPgFwPu8nNDZZY4DI5EevgaTk8UA1jNBUtcZIzXMUi6kzHjBmA==}
     engines: {node: '>=16.17.0'}
     dependencies:
       '@definitelytyped/typescript-versions': 0.0.184
@@ -17433,7 +17481,7 @@ packages:
     peerDependencies:
       typescript: '*'
     dependencies:
-      '@definitelytyped/header-parser': 0.1.0
+      '@definitelytyped/header-parser': 0.1.1
       command-exists: 1.2.9
       rimraf: 3.0.2
       semver: 6.3.1
@@ -17448,7 +17496,7 @@ packages:
     peerDependencies:
       typescript: '*'
     dependencies:
-      '@definitelytyped/header-parser': 0.1.0
+      '@definitelytyped/header-parser': 0.1.1
       command-exists: 1.2.9
       rimraf: 3.0.2
       semver: 6.3.1
@@ -17464,7 +17512,7 @@ packages:
     peerDependencies:
       typescript: '>= 3.0.0-dev || >= 3.1.0-dev || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.7.0-dev || >= 3.8.0-dev || >= 3.9.0-dev || >= 4.0.0-dev'
     dependencies:
-      '@definitelytyped/header-parser': 0.1.0
+      '@definitelytyped/header-parser': 0.1.1
       '@definitelytyped/typescript-versions': 0.0.184
       '@definitelytyped/utils': 0.0.191
       dts-critic: 3.3.11_typescript@4.9.5
@@ -17484,7 +17532,7 @@ packages:
     peerDependencies:
       typescript: '>= 3.0.0-dev || >= 3.1.0-dev || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.7.0-dev || >= 3.8.0-dev || >= 3.9.0-dev || >= 4.0.0-dev'
     dependencies:
-      '@definitelytyped/header-parser': 0.1.0
+      '@definitelytyped/header-parser': 0.1.1
       '@definitelytyped/typescript-versions': 0.0.184
       '@definitelytyped/utils': 0.0.191
       dts-critic: 3.3.11_typescript@5.2.2
